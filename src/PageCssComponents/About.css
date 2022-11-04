@@ -125,17 +125,19 @@
 .know-more::after{
 	content: '';
 	width: 150px;
+	height: 0;
 	display: block;
-	border: 2px solid var(--primary-color-1);
+	border-top: 3px solid var(--primary-color-1);
 }
 
 .know-more::before{
 	content: '';
 	width: 	40px;
 	display: block;
-	border: 2px solid var(--primary-color-2);
+	border-top: 3px solid var(--primary-color-2);
 	position: absolute;
 	bottom: 0;
+	height: 0;
 	transition: 2s ease;
 	animation: moveLR 2s linear infinite;
 	animation-delay: 13s;
